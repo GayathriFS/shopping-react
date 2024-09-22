@@ -38,8 +38,7 @@ const[task,setTask] = useState("")
       </div>
       <ul className="list">
         {list.map((data, index) => (
-          <li key={index} className="lis
-          t-item">
+          <li key={index} className="list-item">
             {data}
             <button onClick={() => handleDelete(index)} className="delete-btn">Delete</button>
           </li>
